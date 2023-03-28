@@ -1,5 +1,22 @@
 @extends("layouts.app")
 
-@section("paragrafo-principale")
- un due tre prova
+@section("page-content")
+ 
+<header>
+    @yield("header")
+</header>
+
+
+<main>
+    <p>MAIN</p>
+</main>
+
+
+<footer></footer>
+
 @endsection
+
+
+
+
+    

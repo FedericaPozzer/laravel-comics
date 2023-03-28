@@ -11,12 +11,7 @@
 </head>
 <body>
 
-    <h1>Template title</h1>
-
-    <p>
-        testo di prova: <br>
-        @yield("paragrafo-principale")
-    </p>
+    @yield("page-content")
     
 </body>
 </html>
