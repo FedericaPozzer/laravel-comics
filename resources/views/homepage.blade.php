@@ -3,7 +3,9 @@
 @section("page-content")
  
 <header>
+
     @yield("header")
+    
 </header>
 
 
