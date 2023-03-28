@@ -11,7 +11,23 @@
 </head>
 <body>
 
-    @yield("page-content")
+    <header>
+
+        @yield("header")
+
+    </header>
+
+
+    <main>
+
+    </main>
+
+
+    <footer>
+
+        @yield("footer")
+
+    </footer>
     
 </body>
 </html>

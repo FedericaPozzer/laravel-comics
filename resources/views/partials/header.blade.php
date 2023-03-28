@@ -1,4 +1,4 @@
-@extends("homepage")
+@extends("layouts.app")
 
 @section("header")
 
