@@ -13,19 +13,19 @@
 
     <header>
 
-        @yield("header")
+        @include("partials.header")
 
     </header>
 
 
     <main>
-
+        @yield("main")
     </main>
 
 
     <footer>
 
-        @yield("footer")
+        @include("partials.footer")
 
     </footer>
     
