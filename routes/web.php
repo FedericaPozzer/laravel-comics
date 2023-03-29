@@ -18,6 +18,8 @@ Route::get('/', function () {
 });
 
 
-Route::get("config/conicsdb.php", function() {
-
-});
+Route::get("/comics", function() {
+    $comics = config("comicsdb");
+    // dd($comics);
+    return view("comics", compact("comics"));
+})->name("comics");

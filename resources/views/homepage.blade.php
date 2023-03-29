@@ -4,16 +4,10 @@
 
 <section class="my-3">
     <div class="container">
-        <div class="row row-cols-6 text-light">
-            <div class="col">
-                <div>
-                    <img src="" alt="img">
-                </div>
-                <div>
-                    NOME COMIC
-                </div>
-            </div>
-        </div>
+        
+        {{-- @yield("main-content") --}}
+        {{-- @include("partials.comics") --}}
+
     </div>
 
     <div class="w-100 d-flex justify-content-center">
