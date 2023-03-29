@@ -1,6 +1,4 @@
-@extends("homepage")
-
-@section("main-content")
+@if(isset($comics))
 
 <div class="row row-cols-6 text-light">
     @foreach ($comics as $comic)
@@ -15,4 +13,8 @@
     @endforeach
 </div>
 
-@endsection
+@else
+
+<div>No comics found</div>
+
+@endif

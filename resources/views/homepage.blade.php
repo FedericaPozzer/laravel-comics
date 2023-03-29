@@ -6,7 +6,7 @@
     <div class="container">
         
         {{-- @yield("main-content") --}}
-        {{-- @include("partials.comics") --}}
+        @include("partials.comics")
 
     </div>
 
