@@ -8,6 +8,9 @@
 
     {{-- Includiamo gli assets con la direttiva @vite --}}
     @vite('resources/js/app.js')
+
+    {{-- bs icons --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
 

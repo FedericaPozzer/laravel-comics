@@ -21,12 +21,13 @@
             <li>VIDEOS</li>
             <li>FANS</li>
             <li>NEWS</li>
-            <li>SHOP &hearts;</li>
+            <li>SHOP <i class="bi bi-caret-down-fill"></i></li>
         </ul>
 
-        <div>Search &hearts;</div>
+        <div>Search <i class="bi bi-search"></i> </div>
     </div>
 </div>
 
-<div class="header-jumbotron"></div>
-
+<div class="header-jumbotron">
+    <img src="{{ Vite::asset('resources/images/jumbotron.jpg') }}" alt="jumbo">
+</div>

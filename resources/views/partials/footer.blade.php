@@ -67,15 +67,15 @@
 
 <div class="footer-social text-light">
     <div class="container d-flex justify-content-between align-items-center">
-        <button>SIGN-UP NOW!</button>
+        <button class="sign-btn">SIGN-UP NOW!</button>
         <div class="social d-flex">
-            <div>FOLLOW US</div>
-            <div>
-                &hearts;
-                &hearts;
-                &hearts;
-                &hearts;
-                &hearts;
+            <div class="blue">FOLLOW US</div>
+            <div class="gray">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-pinterest"></i>
+                <i class="bi bi-geo-alt-fill"></i>
             </div>
         </div>
     </div>
